@@ -6,19 +6,15 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomDiceImage = "dice" + randomNumber1 + ".png";
 
 
-
-// images/dice1.png -  images/dice6.png
-var randomImageScore = "images/" + randomDiceImage;
-
 var image1 = document.querySelectorAll("img")[0];
-image1.setAttribute("src",randomImageScore);
+image1.setAttribute("src",randomDiceImage);
 
 
 // Generates a random number between 1-6
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 // images/dice1.png -  images/dice6.png
-var randomImageScore2 = "images/dice" + randomNumber2 + ".png";
+var randomImageScore2 = "dice" + randomNumber2 + ".png";
 
 
 var image2 = document.querySelectorAll("img")[1].setAttribute("src", randomImageScore2);
